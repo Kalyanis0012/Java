@@ -2,10 +2,10 @@ class Employee{
     String name;
     double salary;
      void login(){
-         System.out.println(name + "logged in");
+         System.out.println(name + " logged in");
      }
      void work(){
-         System.out.println("employee is working");
+         System.out.println( name + " is working");
      }
 
 }
